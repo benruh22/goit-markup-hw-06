@@ -117,6 +117,9 @@ a {
  padding-top: 96px;
   justify-content: center;
   column-gap: 24px;
+  transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
  ;
 }
 .features-list-button-type {
@@ -132,12 +135,18 @@ a {
   border: 1px solid var(--cornflower);
   font-family: inherit;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
  }
 button {
   font-family: inherit;
   border: unset;
   outline: none;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
  }
 .features-list-button-type:hover {
   color: var(--white);
@@ -145,6 +154,10 @@ button {
   background: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+ 
 }
 
 
@@ -157,6 +170,7 @@ button {
   outline: none;
   cursor: pointer;
  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 } 
 
 
