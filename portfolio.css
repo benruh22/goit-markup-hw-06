@@ -120,7 +120,7 @@ a {
   transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
   background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
   border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
- ;
+ 
 }
 .features-list-button-type {
   text-transform: capitalize; 
@@ -170,6 +170,9 @@ button {
   outline: none;
   cursor: pointer;
  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
  
 } 
 
@@ -210,6 +213,9 @@ button {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16)
     0px 1px 6px 0px rgba(46, 47, 66, 0.18);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 
@@ -241,6 +247,9 @@ button {
 .project-link:hover .project-cover-text {
   transform: translateY(0);
    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
+  border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
   
 }
 
