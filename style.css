@@ -573,12 +573,34 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all var(--transition-duration) var(--animation-timing-function);
-
-
-  
 }
 
+.customers-list-item .icon-clients-item-link{
+  color: var(--ocean) 
+
+}
+  
+.icon-clients-item-link {
+  color: var(--lightslate);
+}
+
+.customers-list-item:hover {
+  border-color: var(--ocean);
+}
+
+.icon-clients {
+  fill: currentColor;
+display: block;
+  width: 168px;
+  height: 88px;
+padding: 16px 32px;
+
+}
+.customers-list-item{
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+
+}
 .customers-list-item:hover{
   border-color: var(--iris);
   transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
